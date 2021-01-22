@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>210</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>assn2.dtm::Buyer
+--
+-userId: int
+-status: java.lang.String
+-BuyersCount: int
+-largestUserId: int
+--
+~Buyer(): ctor
++Buyer(): ctor
++Buyer(int): ctor
+-checkStatus(): java.lang.String
++upgradeMembership(): void
++getUserId(): int
++getStatus(): java.lang.String
++getBuyersCount(): int
++toString(): java.lang.String
++main(java.lang.String[]): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
